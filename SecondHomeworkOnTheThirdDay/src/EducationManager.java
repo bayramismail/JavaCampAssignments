@@ -16,5 +16,6 @@ public class EducationManager {
 	public Education educationById(int id) {
 		Education education =new Education();
 		return education;
+		//de
 	}
 }
