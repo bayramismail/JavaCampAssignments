@@ -3,6 +3,12 @@ public class EducationManager {
 	public void add(Education education) {
 		System.out.println("Added");
 	}
+	public void multipleAdd(Education[] educations) {
+		for (Education education : educations) {
+			System.out.println(education.getLessonId()+" Added");
+		}
+		
+	}
 	public void update(Education education) {
 		System.out.println("Updated");
 	}
